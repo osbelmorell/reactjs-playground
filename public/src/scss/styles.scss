@@ -1,19 +1,50 @@
-$mainColorl:red;
-// @import url('https://fonts.googleapis.com/css?family=Kumar+One');
-body{
-    padding: 1em;
-    background-color:#fff;
-    color:#666;
-    font-size: 1em;
-    font-family: 'Arial', cursive;
-    text-align: center;
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
 }
-.status{
-    padding:20px;
+
+ol, ul {
+  padding-left: 30px;
 }
-.square{
-    width: 100px;
-    height: 100px;
-    background-color: transparent;
-    border: 1px solid #ccc;
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
 }
