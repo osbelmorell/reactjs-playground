@@ -1,0 +1,19 @@
+$mainColorl:red;
+// @import url('https://fonts.googleapis.com/css?family=Kumar+One');
+body{
+    padding: 1em;
+    background-color:#fff;
+    color:#666;
+    font-size: 1em;
+    font-family: 'Arial', cursive;
+    text-align: center;
+}
+.status{
+    padding:20px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
